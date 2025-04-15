@@ -1,6 +1,7 @@
 {
   "name": "my-elec",
   "version": "1.0.0",
+  "author": "weTeam",
   "description": "no",
   "main": "index.js",
   "scripts": {
@@ -8,7 +9,6 @@
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1",
@@ -23,6 +23,7 @@
     "@electron-forge/plugin-auto-unpack-natives": "^7.8.0",
     "@electron-forge/plugin-fuses": "^7.8.0",
     "@electron/fuses": "^1.8.0",
-    "electron": "35.1.5"
+    "electron": "35.1.5",
+    "electron-winstaller": "^5.4.0"
   }
 }
